@@ -6,21 +6,49 @@ dark - #004ba0; -white text*/
 body {
     background-color: #1976d2;
     color: white;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #navbar {
     background-color: #004ba0;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 16px;
+    padding: 10px;
 }
+
+.nav-right-options{
+    color: white;
+}
+
 
 #welcome {
     padding: 20px;
     background-color: white;
     width: 100%;
     color: black;
+    text-align: center;
 }
 
 #headshot {
     border-radius: 50%;
+}
+
+.name {
+    margin: 10px;
+}
+
+#welcome-name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#job-title {
+    font-size: 20px;
+}
+
+#about-me {
+    padding: 30px;
+}
+
+.about-picture {
+    width: 60%;
 }
