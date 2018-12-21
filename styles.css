@@ -1,7 +1,19 @@
 /* colors:
-primary -#1976d2;
+primary -#1976d2; - white text
 light - #63a4ff; - black text
-dark - #004ba0; -white text*/
+dark - #004ba0; -white text
+
+secondary - #ff7043 - black text
+light - #ffa270 - black text 
+dark - #c63f17 - white text
+
+*/
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+/* select colors that arent just white/black
+think about colors that can surround content and make it pop */
 
 body {
     background-color: #1976d2;
@@ -11,44 +23,51 @@ body {
 
 #navbar {
     background-color: #004ba0;
-    font-size: 16px;
-    padding: 10px;
+    font-size: 1.25vw;
+    padding: 1em;
+}
+
+.nav-name {
+    align-self: center;
+}
+
+.nav-link {
+    display: inline-block;
+    padding-right: 1em;
 }
 
 .nav-right-options{
-    color: white;
+    color: rgb(219, 219, 219);
 }
 
 
 #welcome {
-    padding: 20px;
-    background-color: white;
+    padding: 2em;
     width: 100%;
-    color: black;
     text-align: center;
+    background-color: white;
+    color:rgb(58, 58, 58);
+}
+
+.welcome-text {
+    text-align: center;
+    width: 100%;
 }
 
 #headshot {
     border-radius: 50%;
+    width: 20%;
 }
 
 .name {
-    margin: 10px;
+    margin: 2%;
 }
 
 #welcome-name {
-    font-size: 40px;
+    font-size: 4vw;
     font-weight: bold;
 }
 
 #job-title {
-    font-size: 20px;
-}
-
-#about-me {
-    padding: 30px;
-}
-
-.about-picture {
-    width: 60%;
+    font-size: 2vw;
 }
