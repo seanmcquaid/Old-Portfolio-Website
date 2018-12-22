@@ -38,6 +38,7 @@ body {
 
 .nav-right-options{
     color: rgb(219, 219, 219);
+    align-self: center;
 }
 
 .nav-right-options:hover {
@@ -79,4 +80,19 @@ body {
 #bio {
     background-color: #ff7043;
     color: rgb(26, 26, 26);
+    font-family: 'Roboto Mono', monospace;
+    width: 100%; 
+    align-self: center;
+}
+
+.bio-text div {
+    margin: 2%;
+}
+
+.bio-header {
+    font-size: 3vw;
+}
+
+.bio-main-text {
+    font-size: 1.2vw;
 }
