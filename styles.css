@@ -40,6 +40,10 @@ body {
     color: rgb(219, 219, 219);
 }
 
+.nav-right-options:hover {
+    color:#ffa270;
+}
+
 
 #welcome {
     padding: 2em;
@@ -70,4 +74,9 @@ body {
 
 #job-title {
     font-size: 2vw;
+}
+
+#bio {
+    background-color: #ff7043;
+    color: rgb(26, 26, 26);
 }
