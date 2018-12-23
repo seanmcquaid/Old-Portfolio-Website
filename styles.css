@@ -77,12 +77,12 @@ body {
     font-size: 2vw;
 }
 
-#bio {
+.bio-text {
     background-color: #ff7043;
     color: rgb(26, 26, 26);
     font-family: 'Roboto Mono', monospace;
     width: 100%; 
-    align-self: center;
+    
 }
 
 .bio-text div {
