@@ -65,8 +65,12 @@ body {
     width: 30%;
 }
 
-.name {
+.welcome-section {
     margin: 2%;
+}
+
+.welcome-section div {
+    padding: 0.3em;
 }
 
 #welcome-name {
@@ -76,6 +80,11 @@ body {
 
 #job-title {
     font-size: 30px;
+}
+
+.contact-icon {
+    display: inline-block;
+    font-size: 40px;
 }
 
 .bio-text {
