@@ -33,13 +33,12 @@ body {
 }
 
 .nav-link {
-    display: inline-block;
-    align-self: center;
+    /* display: inline-block; */
+    text-align: center;
     padding-right: 1em;
 }
 
 .nav-right-options{
-    align-self: center;
     color: rgb(219, 219, 219);
 }
 
