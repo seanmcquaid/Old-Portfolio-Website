@@ -14,6 +14,7 @@ font-family: 'Roboto Mono', monospace; */
 
 /* select colors that arent just white/black
 think about colors that can surround content and make it pop */
+/* use grey from background eith name for text and then use same color of heading text for about me */
 
 body {
     background-color: #1976d2;
@@ -88,8 +89,8 @@ body {
 }
 
 .bio-text {
-    background-color: #ff7043;
-    color: rgb(26, 26, 26);
+    background-color: rgb(219, 219, 219);
+    color:rgb(58, 58, 58);
     font-family: 'Roboto Mono', monospace;
     width: 100%;
     padding: 1em;
@@ -120,9 +121,9 @@ body {
 }
 
 .skills-section {
-    background-color: #c63f17;
+    background-color: #ff7043;
     font-family: 'Roboto Mono', monospace;
-    color: rgb(219, 219, 219);
+    color: rgb(58, 58, 58);
     padding: 1em;
     margin-top: 1em;
 }
@@ -130,4 +131,40 @@ body {
 .skill-icon {
    font-size: 50px;
    margin-top: 10px;
+}
+
+.projects-section {
+    background-color: #ff7043;
+    color: rgb(58, 58, 58);
+    font-family: 'Roboto Mono', monospace;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.projects-header {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.project {
+    background-color: rgb(219, 219, 219);
+    margin-bottom: 2em;
+}
+
+.project div{
+    text-align: center;
+    margin: 1em;
+}
+
+.project-title {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.project-image img {
+    width: 80%;
 }
