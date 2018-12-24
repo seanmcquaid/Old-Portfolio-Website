@@ -167,3 +167,31 @@ body {
 .project-image img {
     width: 80%;
 }
+
+.contact-section {
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+    color: rgb(58, 58, 58);
+    font-family: 'Roboto Mono', monospace;
+    padding: 1em;
+}
+
+.contact-header {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.contact-text {
+    font-size: 16px;
+}
+
+#copyright-bar {
+    background-color: #004ba0;
+    color: rgb(219, 219, 219);
+    font-size: 16px;
+    padding: 1em;
+    margin-top: 1em;
+}
