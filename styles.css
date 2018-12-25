@@ -32,13 +32,8 @@ body {
     align-self: center;
 }
 
-.nav-link {
-    padding: 1em;
-}
-
 .nav-right-options{
     color: rgb(219, 219, 219);
-    text-align: center;
 }
 
 .nav-right-options:hover {
@@ -61,7 +56,7 @@ body {
 
 #headshot {
     border-radius: 50%;
-    width: 30%;
+    width: 200px;
 }
 
 .welcome-section {
