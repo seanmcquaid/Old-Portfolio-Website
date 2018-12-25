@@ -33,13 +33,12 @@ body {
 }
 
 .nav-link {
-    /* display: inline-block; */
-    text-align: center;
-    padding-right: 1em;
+    padding: 1em;
 }
 
 .nav-right-options{
     color: rgb(219, 219, 219);
+    text-align: center;
 }
 
 .nav-right-options:hover {
@@ -165,16 +164,12 @@ body {
 .project-title {
     font-weight: bold;
     text-decoration: underline;
-    font-size: 2vw;
 }
 
 .project-image img {
     width: 100%;
 }
 
-.project-description {
-   font-size: 1.5vw;
-}
 
 .contact-section {
     text-align: center;
