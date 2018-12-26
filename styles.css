@@ -21,26 +21,6 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-#navbar {
-    background-color: #004ba0;
-    color: rgb(219, 219, 219);
-    font-size: 16px;
-    padding: 1em;
-}
-
-.nav-name {
-    align-self: center;
-}
-
-.nav-right-options{
-    color: rgb(219, 219, 219);
-}
-
-.nav-right-options:hover {
-    color:#ffa270;
-}
-
-
 #welcome {
     padding: 2em;
     width: 100%;
@@ -78,13 +58,13 @@ body {
 
 .contact-icon {
     display: inline-block;
+    color: #007bff;
     font-size: 40px;
 }
 
 .bio-text {
     background-color: rgb(219, 219, 219);
     color:rgb(58, 58, 58);
-    font-family: 'Roboto Mono', monospace;
     width: 100%;
     padding: 1em;
     margin-top: 1em;
@@ -115,7 +95,6 @@ body {
 
 .skills-section {
     background-color: #ff7043;
-    font-family: 'Roboto Mono', monospace;
     color: rgb(58, 58, 58);
     padding: 1em;
     margin-top: 1em;
@@ -126,52 +105,12 @@ body {
    margin-top: 10px;
 }
 
-.projects-section {
-    background-color: #ff7043;
-    color: rgb(58, 58, 58);
-    font-family: 'Roboto Mono', monospace;
-    padding: 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    width: 100%;
-}
-
-.projects-header {
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 32px;
-    text-align: center;
-    margin-bottom: 1em;
-    width: 100%;
-}
-
-.project {
-    background-color: rgb(219, 219, 219);
-    margin-bottom: 2em;
-    width: 100%;
-}
-
-.project div{
-    text-align: center;
-    margin: 1em;
-}
-
-.project-title {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.project-image img {
-    width: 100%;
-}
-
-
 .contact-section {
     text-align: center;
     background-color: rgb(219, 219, 219);
     color: rgb(58, 58, 58);
-    font-family: 'Roboto Mono', monospace;
     padding: 1em;
+    margin-top: 1em;
 }
 
 .contact-section div {
