@@ -7,6 +7,10 @@ secondary - #ff7043 - black text
 light - #ffa270 - black text 
 dark - #c63f17 - white text
 
+for text: 
+background-color: rgb(219, 219, 219);
+color:rgb(58, 58, 58);
+
 */
 
 /* font-family: 'Roboto', sans-serif;
@@ -16,140 +20,55 @@ font-family: 'Roboto Mono', monospace; */
 think about colors that can surround content and make it pop */
 /* use grey from background eith name for text and then use same color of heading text for about me */
 
+
 body {
     background-color: #1976d2;
     font-family: 'Roboto Mono', monospace;
 }
 
-#navbar {
-    background-color: #004ba0;
-    color: rgb(219, 219, 219);
+/* Main container */
+
+.main-container {
+    display: flex;
+    justify-content: center;
 }
 
-.nav-section {
+/* Welcome */
+
+.welcome {
+    color:rgb(58, 58, 58);
+    background-color: rgb(219, 219, 219);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 1em;
 }
-.nav-name {
-    align-self: center;
-}
-.nav-link {
-    display: inline-block;
+
+.welcome .text {
+    max-width: 520px;
 }
 
-#welcome {
-    padding-top: 3em;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(219, 219, 219);
-    color:rgb(58, 58, 58);
+.name {
+    font-size: 3em;
 }
 
-.welcome-text {
-    text-align: center;
-    width: 100%;
+.job-title {
+    font-size: 1.5em;
 }
 
-#headshot {
+.headshot {
+    height: 16em;
+    width: 16em;
     border-radius: 50%;
-    width: 200px;
 }
 
-.welcome-section {
-    margin: 2%;
-}
-
-.welcome-section div {
-    padding: 0.3em;
-}
-
-#welcome-name {
-    font-size: 50px;
-    font-weight: bold;
-}
-
-#job-title {
-    font-size: 30px;
+.contact-icons {
+    font-size: 2.5em;
 }
 
 .contact-icon {
-    display: inline-block;
-    color: #007bff;
-    font-size: 40px;
-}
-
-.bio-text {
-    background-color: rgb(219, 219, 219);
-    color:rgb(58, 58, 58);
-    width: 100%;
-    padding: 1em;
-    margin-top: 1em;
-}
-
-.bio-text div {
-    margin: 2%;
-}
-
-.bio-header {
-    font-size: 32px;
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.bio-main-text {
-    font-size: 16px;
-}
-
-
-.skills-header {
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 32px;
-}
-
-.skills-section {
-    background-color: #ff7043;
-    color: rgb(58, 58, 58);
-    padding: 1em;
-    margin-top: 1em;
-}
-
-.skill-icon {
-   font-size: 50px;
-   margin-top: 10px;
-}
-
-.contact-section {
-    text-align: center;
-    background-color: rgb(219, 219, 219);
-    color: rgb(58, 58, 58);
-    padding: 1em;
-    margin-top: 1em;
-}
-
-.contact-section div {
-    padding: 0.3em;
-}
-
-.contact-header {
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 32px;
-    text-align: center;
-}
-
-.contact-text {
-    font-size: 16px;
-    width: 100%;
-    padding: 1em;
-    margin-top: 1em;
-}
-
-#copyright-bar {
-    background-color: #004ba0;
-    color: rgb(219, 219, 219);
-    font-size: 16px;
-    padding: 1em;
-    margin-top: 1em;
+    margin-left: 0.25em;
 }
