@@ -21,8 +21,23 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
+#navbar {
+    background-color: #004ba0;
+    color: rgb(219, 219, 219);
+}
+
+.nav-section {
+    padding: 1em;
+}
+.nav-name {
+    align-self: center;
+}
+.nav-link {
+    display: inline-block;
+}
+
 #welcome {
-    padding: 2em;
+    padding-top: 3em;
     width: 100%;
     text-align: center;
     background-color: rgb(219, 219, 219);
