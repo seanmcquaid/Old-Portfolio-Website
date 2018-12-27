@@ -24,13 +24,18 @@ think about colors that can surround content and make it pop */
 body {
     background-color: #1976d2;
     font-family: 'Roboto Mono', monospace;
-}
-
-/* Main container */
-
-.main-container {
     display: flex;
     justify-content: center;
+}
+
+/* main container */
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Welcome */
@@ -48,7 +53,8 @@ body {
 }
 
 .welcome .text {
-    max-width: 520px;
+    max-width: 650px;
+    padding: 1em;
 }
 
 .name {
@@ -57,6 +63,10 @@ body {
 
 .job-title {
     font-size: 1.5em;
+}
+
+.mini-bio {
+    text-align: left;
 }
 
 .headshot {
@@ -71,4 +81,24 @@ body {
 
 .contact-icon {
     margin-left: 0.25em;
+    color:rgb(58, 58, 58);
+}
+
+/* about me */
+
+.about-me {
+    background-color: rgb(219, 219, 219);
+    color:rgb(58, 58, 58);
+    width: auto;
+    margin-top: 2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-text {
+    max-width: 650px;
+    text-align: left;
 }
