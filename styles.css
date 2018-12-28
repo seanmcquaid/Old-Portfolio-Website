@@ -23,6 +23,7 @@ think about colors that can surround content and make it pop */
 
 body {
     background-color: #1976d2;
+    margin: 0;
     font-family: 'Roboto Mono', monospace;
     display: flex;
     justify-content: center;
