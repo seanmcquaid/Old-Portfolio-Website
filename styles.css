@@ -42,11 +42,12 @@ body {
 /* Navbar */
 
 .navbar {
-    position: relative;
+    position: fixed;
     top: 0;
     width: 100%;
     padding: 1em;
     background-color: #004ba0;
+    color: rgb(219, 219, 219);
 }
 
 .navbar div {
@@ -56,6 +57,10 @@ body {
 .nav-name {
     font-size: 22px;
     margin-left: 1em;
+}
+
+.nav-right {
+    vertical-align: middle;
 }
 
 .nav-right-options {
@@ -75,7 +80,7 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: white;
+    color: rgb(219, 219, 219);
 }
 
 /* Welcome */
@@ -90,11 +95,11 @@ body {
     align-items: center;
     text-align: center;
     padding: 1em;
+    margin-top: 57px;
 }
 
 #welcome .text {
     max-width: 650px;
-    padding: 1em;
 }
 
 .name {
