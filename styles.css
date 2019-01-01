@@ -42,6 +42,7 @@ body {
 /* Navbar */
 
 .navbar {
+    position: relative;
     top: 0;
     width: 100%;
     padding: 1em;
@@ -54,20 +55,32 @@ body {
 
 .nav-name {
     font-size: 22px;
+    margin-left: 1em;
 }
 
 .nav-right-options {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    right: 0;
     list-style: none;
-    text-align: right;
+    margin-right: 1em;
 }
 
 .nav-right-option {
     display: inline-block;
+    margin-right: 2em;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
 }
 
 /* Welcome */
 
-.welcome {
+#welcome {
     color:rgb(58, 58, 58);
     background-color: rgb(219, 219, 219);
     width: 100vw;
@@ -79,7 +92,7 @@ body {
     padding: 1em;
 }
 
-.welcome .text {
+#welcome .text {
     max-width: 650px;
     padding: 1em;
 }
@@ -94,6 +107,7 @@ body {
 
 .mini-bio {
     text-align: left;
+    max-width: 650px;
 }
 
 .headshot {
@@ -113,7 +127,7 @@ body {
 
 /* about me */
 
-.about-me {
+#about-me {
     background-color: rgb(219, 219, 219);
     color:rgb(58, 58, 58);
     width: 80%;
