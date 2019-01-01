@@ -39,6 +39,32 @@ body {
     align-items: center;
 }
 
+/* Navbar */
+
+.navbar {
+    top: 0;
+    width: 100%;
+    padding: 1em;
+    background-color: #004ba0;
+}
+
+.navbar div {
+    display: inline-block;
+}
+
+.nav-name {
+    font-size: 22px;
+}
+
+.nav-right-options {
+    list-style: none;
+    text-align: right;
+}
+
+.nav-right-option {
+    display: inline-block;
+}
+
 /* Welcome */
 
 .welcome {
@@ -90,7 +116,8 @@ body {
 .about-me {
     background-color: rgb(219, 219, 219);
     color:rgb(58, 58, 58);
-    width: auto;
+    width: 80%;
+    max-width: 650px;
     margin-top: 2em;
     padding: 1em;
     display: flex;
@@ -100,6 +127,5 @@ body {
 }
 
 .bio-text {
-    max-width: 650px;
     text-align: left;
 }
