@@ -45,7 +45,6 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 1em;
     background-color: #004ba0;
     color: rgb(219, 219, 219);
 }
@@ -57,20 +56,19 @@ body {
 .nav-name {
     font-size: 22px;
     margin-left: 1em;
+    width: 25%;
 }
 
 .nav-right {
-    vertical-align: middle;
+    width: 70%;
 }
 
 .nav-right-options {
     display: flex;
     flex-direction: row;
-    position: absolute;
-    top: 0;
-    right: 0;
+    align-items: center;
+    justify-content: flex-end;
     list-style: none;
-    margin-right: 1em;
 }
 
 .nav-right-option {
@@ -93,13 +91,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     padding: 1em;
-    margin-top: 57px;
+    margin-top: 50px;
+    justify-content: flex-end;
 }
 
 #welcome .text {
     max-width: 650px;
+    width: 80%;
+    text-align: center;
 }
 
 .name {
@@ -147,4 +147,36 @@ body {
 
 .bio-text {
     text-align: left;
+}
+
+/* Skills */
+
+#skills {
+    background-color: rgb(219, 219, 219);
+    color:rgb(58, 58, 58);
+    width: 80%;
+    max-width: 650px;
+    margin-top: 2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Projects */
+
+/* Contact-Me */
+
+/* Footer */
+
+#footer {
+    width: 100%;
+    padding: 1em 0;
+    background-color: #004ba0;
+    color: rgb(219, 219, 219);
+}
+
+.copyright-text {
+    margin-left: 1em;
 }
