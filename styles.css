@@ -43,25 +43,22 @@ body {
 
 .navbar {
     position: fixed;
+    padding: 0.5rem;
     top: 0;
     width: 100%;
     background-color: #004ba0;
     color: rgb(219, 219, 219);
-}
-
-.navbar div {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .nav-name {
-    font-size: 22px;
-    margin-left: 1em;
-    width: 25%;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    width: 100%;
 }
 
-.nav-right {
-    width: 70%;
-}
 
 .nav-right-options {
     display: flex;
@@ -71,14 +68,26 @@ body {
     list-style: none;
 }
 
+.navbar-toggle-icon {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
 .nav-right-option {
     display: inline-block;
-    margin-right: 2em;
+    margin-right: 2rem;
 }
 
 .nav-link {
     text-decoration: none;
     color: rgb(219, 219, 219);
+}
+
+.nav-link:hover {
+    color: #ffa270;
+    text-decoration: underline;
 }
 
 /* Welcome */
@@ -91,42 +100,41 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em;
-    margin-top: 50px;
-    justify-content: flex-end;
+    padding: 1rem;
+    margin-top: 4.3rem;
 }
 
 #welcome .text {
-    max-width: 650px;
+    max-width: 40.6rem;
     width: 80%;
     text-align: center;
 }
 
 .name {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .job-title {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .mini-bio {
     text-align: left;
-    max-width: 650px;
+    max-width: 40.6rem;
 }
 
 .headshot {
-    height: 16em;
-    width: 16em;
+    width: 100%;
+    max-width: 12rem;
     border-radius: 50%;
 }
 
 .contact-icons {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
 .contact-icon {
-    margin-left: 0.25em;
+    margin-left: 0.25rem;
     color:rgb(58, 58, 58);
 }
 
@@ -136,9 +144,9 @@ body {
     background-color: rgb(219, 219, 219);
     color:rgb(58, 58, 58);
     width: 80%;
-    max-width: 650px;
-    margin-top: 2em;
-    padding: 1em;
+    max-width: 40.6rem;
+    margin-top: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,19 +160,44 @@ body {
 /* Skills */
 
 #skills {
-    background-color: rgb(219, 219, 219);
-    color:rgb(58, 58, 58);
+    background-color: #c63f17;
+    color:white;
     width: 80%;
     max-width: 650px;
-    margin-top: 2em;
-    padding: 1em;
+    margin-top: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.skill-icons-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.skill-icon {
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
 /* Projects */
+
+#projects {
+    background-color: rgb(219, 219, 219);
+    color:rgb(58, 58, 58);
+    width: 80%;
+    max-width: 40.6rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Contact-Me */
 
@@ -172,11 +205,18 @@ body {
 
 #footer {
     width: 100%;
-    padding: 1em 0;
+    bottom: 0;
+    padding: 1rem 0;
     background-color: #004ba0;
     color: rgb(219, 219, 219);
 }
 
 .copyright-text {
-    margin-left: 1em;
+    margin-left: 1rem;
 }
+
+/* media queries */
+
+@media (min-width:28.5rem){
+   
+} 
