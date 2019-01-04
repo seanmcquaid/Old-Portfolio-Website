@@ -106,7 +106,7 @@ body {
 }
 
 .name {
-    font-size: 3rem;
+    font-size: 2.6rem;
 }
 
 .job-title {
@@ -213,6 +213,19 @@ body {
 }
 
 /* Contact-Me */
+
+#contact-me {
+    background-color: rgb(219, 219, 219);
+    color:rgb(58, 58, 58);
+    width: 80%;
+    max-width: 40.6rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Footer */
 
