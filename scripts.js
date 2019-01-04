@@ -3,8 +3,8 @@
 
 const navToggleButton = document.querySelector(".nav-toggle-icon")
 
-const navLinks = 
+const mobileNavLinks = document.querySelector(".mobile-nav")
 
 navToggleButton.addEventListener("click", ()=>{
-    
+    mobileNavLinks.style.display = "block";
 })

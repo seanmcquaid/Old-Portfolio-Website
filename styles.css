@@ -75,16 +75,48 @@ body {
     display: none;
 }
 
+.mobile-nav {
+    display: none;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    right: 0;
+    background: black;
+    color: white;
+    width: 30%;
+    height: 10rem;
+  }
+  
+  .mobile-nav-options {
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    margin: 10% auto;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .mobile-nav-option {
+    margin: 1rem 0;
+  }
+  
+  .mobile-nav__item a {
+    font-size: 1.5rem;
+  }
+
 .nav-toggle-icon {
+    position: relative;
     margin-right: 1rem;
     font-size: 1.5rem;
 }
+
 
 .nav-toggle-icon:hover,
 .nav-toggle-icon:active {
     cursor: pointer;
     color: #ffa270;
 }
+
 /* Welcome */
 
 #welcome {
