@@ -79,6 +79,12 @@ body {
     margin-right: 1rem;
     font-size: 1.5rem;
 }
+
+.nav-toggle-icon:hover,
+.nav-toggle-icon:active {
+    cursor: pointer;
+    color: #ffa270;
+}
 /* Welcome */
 
 #welcome {
@@ -164,7 +170,7 @@ body {
 .skill-icons-container {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
 }
 
@@ -188,6 +194,24 @@ body {
     align-items: center;
 }
 
+.projects-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+}
+
 /* Contact-Me */
 
 /* Footer */
@@ -195,6 +219,7 @@ body {
 #footer {
     width: 100%;
     bottom: 0;
+    margin-top: 2rem;
     padding: 1rem 0;
     background-color: #004ba0;
     color: rgb(219, 219, 219);
@@ -229,7 +254,8 @@ body {
         color: rgb(219, 219, 219);
     }
     
-    .nav-link:hover {
+    .nav-link:hover,
+    .nav-link:active {
         color: #ffa270;
         text-decoration: underline;
     }
