@@ -39,6 +39,21 @@ body {
     align-items: center;
 }
 
+/* backdrop */
+
+#backdrop {
+    position: fixed;
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
 /* Navbar */
 
 .navbar {
@@ -71,38 +86,21 @@ body {
     justify-content: flex-end;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: #ffa270;
+    text-decoration: underline;
+}
+
 .nav-right-options {
     display: none;
 }
 
-.mobile-nav {
-    display: none;
-    position: fixed;
-    z-index: 101;
-    top: 0;
-    right: 0;
-    background: black;
-    color: white;
-    width: 30%;
-    height: 10rem;
-  }
-  
-  .mobile-nav-options {
-    width: 90%;
-    height: 100%;
-    list-style: none;
-    margin: 10% auto;
-    padding: 0;
-    text-align: center;
-  }
-  
-  .mobile-nav-option {
-    margin: 1rem 0;
-  }
-  
-  .mobile-nav__item a {
-    font-size: 1.5rem;
-  }
 
 .nav-toggle-icon {
     position: relative;
@@ -116,6 +114,40 @@ body {
     cursor: pointer;
     color: #ffa270;
 }
+
+/* Mobile Nav */
+
+
+.mobile-nav {
+    display: none;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    right: 0;
+    background: #c63f17;
+    color: rgb(219, 219, 219);
+    width: 26%;
+    height: 10rem;
+    margin-top: 5.3rem;
+  }
+  
+  .mobile-nav-options {
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    margin: 10% auto;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .mobile-nav-option {
+    margin: 1rem 0;
+    border: 2px solid black;
+  }
+  
+  .mobile-nav__item a {
+    font-size: 1.5rem;
+  }
 
 /* Welcome */
 
@@ -202,13 +234,15 @@ body {
 .skill-icons-container {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
+    align-items: center;
 }
 
 .skill-icon {
     font-size: 3rem;
-    margin: 0.5rem;
+    margin: 0 auto;
+    padding: 0.25rem;
 }
 
 /* Projects */
@@ -313,17 +347,6 @@ body {
     .nav-right-option {
         display: inline-block;
         margin-right: 2rem;
-    }
-
-    .nav-link {
-        text-decoration: none;
-        color: rgb(219, 219, 219);
-    }
-    
-    .nav-link:hover,
-    .nav-link:active {
-        color: #ffa270;
-        text-decoration: underline;
     }
 } 
 
