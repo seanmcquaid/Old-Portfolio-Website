@@ -1,6 +1,8 @@
 const backDrop = document.querySelector("#backdrop");
 const navToggleButton = document.querySelector(".nav-toggle-icon")
-const mobileNavLinks = document.querySelector(".mobile-nav")
+const mobileNavMenu = document.querySelector(".mobile-nav")
+const mobileNavOption = document.querySelector(".mobile-nav-option");
+
 
 navToggleButton.addEventListener("click", ()=>{
     mobileNavLinks.style.display = "block";
@@ -8,6 +10,11 @@ navToggleButton.addEventListener("click", ()=>{
 });
 
 backDrop.addEventListener("click", ()=>{
-    mobileNavLinks.style.display = "none";
+    mobileNavMenu.style.display = "none";
+    backdrop.style.display = 'none';
+});
+
+mobileNavOption.addEventListener("click", ()=>{
+    mobileNavMenu.style.display = "none";
     backdrop.style.display = 'none';
 });
