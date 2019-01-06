@@ -1,11 +1,13 @@
 const backDrop = document.querySelector("#backdrop");
 const navToggleButton = document.querySelector(".nav-toggle-icon")
 const mobileNavMenu = document.querySelector(".mobile-nav")
-const mobileNavOption = document.querySelector(".mobile-nav-option");
+const mobileNavOptionsArray = document.querySelectorAll(".mobile-nav-option");
+const anchorArray = document.querySelectorAll("a");
+console.log(anchorArray);
 
 
 navToggleButton.addEventListener("click", ()=>{
-    mobileNavLinks.style.display = "block";
+    mobileNavMenu.style.display = "block";
     backdrop.style.display = 'block';
 });
 
@@ -14,7 +16,11 @@ backDrop.addEventListener("click", ()=>{
     backdrop.style.display = 'none';
 });
 
-mobileNavOption.addEventListener("click", ()=>{
-    mobileNavMenu.style.display = "none";
-    backdrop.style.display = 'none';
+mobileNavOptionsArray.forEach((option)=>{
+    option.addEventListener("click", ()=>{
+        mobileNavMenu.style.display = "none";
+        backdrop.style.display = 'none';
+    });
 });
+
+// create smooth scrolling for all a tags

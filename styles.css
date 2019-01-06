@@ -123,15 +123,11 @@ body {
     position: fixed;
     z-index: 101;
     top: 0;
-    right: 0;
-    width: 30%;
-    height: 10rem;
+    width: 40%;
     margin-top: 5.3rem;
   }
   
   .mobile-nav-options {
-    width: 90%;
-    height: 100%;
     list-style: none;
     margin: 0.25rem auto;
     padding: 0;
@@ -332,6 +328,10 @@ body {
 /* media queries */
 
 @media (min-width:32rem){
+    #backdrop {
+        display: none;
+    }
+
     .nav-toggle-icon {
         display: none;
     }
@@ -347,6 +347,10 @@ body {
     .nav-right-option {
         display: inline-block;
         margin-right: 2rem;
+    }
+
+    .mobile-nav-options {
+        display: none;
     }
 } 
 
