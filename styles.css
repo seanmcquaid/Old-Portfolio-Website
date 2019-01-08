@@ -200,7 +200,7 @@ body {
     color:rgb(58, 58, 58);
     width: 80%;
     max-width: 40.6rem;
-    margin-top: 2rem;
+    margin-top: 5.3rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -215,11 +215,11 @@ body {
 /* Skills */
 
 #skills {
-    background-color: #c63f17;
-    color:white;
+    background-color: #ff7043;
+    color:rgb(58, 58, 58);
     width: 80%;
     max-width: 650px;
-    margin-top: 2rem;
+    margin-top: 5.3rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -244,11 +244,11 @@ body {
 /* Projects */
 
 #projects {
-    background-color: #c63f17;
-    color: rgb(219, 219, 219);
+    background-color: #ff7043;
+    color:rgb(58, 58, 58);
     width: 80%;
     max-width: 40.6rem;
-    margin-top: 2rem;
+    margin-top: 5.3rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -302,7 +302,7 @@ body {
     color:rgb(58, 58, 58);
     width: 80%;
     max-width: 40.6rem;
-    margin-top: 2rem;
+    margin-top: 5.3rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -315,7 +315,7 @@ body {
 #footer {
     width: 100%;
     bottom: 0;
-    margin-top: 2rem;
+    margin-top: 5.3rem;
     padding: 1rem 0;
     background-color: #004ba0;
     color: rgb(219, 219, 219);
