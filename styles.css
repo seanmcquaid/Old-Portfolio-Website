@@ -327,7 +327,7 @@ body {
 
 /* media queries */
 
-@media (min-width:32rem){
+@media (min-width:38rem){
     #backdrop {
         display: none;
     }

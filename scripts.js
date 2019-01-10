@@ -22,5 +22,3 @@ mobileNavOptionsArray.forEach((option)=>{
         backdrop.style.display = 'none';
     });
 });
-
-// create smooth scrolling for all a tags
