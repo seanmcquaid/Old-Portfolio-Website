@@ -276,6 +276,11 @@ body {
     margin: 1rem;
 }
 
+.project-picture {
+    width: 90%;
+    max-height: 20.8rem;
+}
+
 .project-buttons {
     width: 100%;
     display: flex;
@@ -354,8 +359,8 @@ body {
     }
 } 
 
-@media (min-width: 41.75rem){
+/* @media (min-width: 41.75rem){
     .projects-container {
         grid-template-columns: 1fr 1fr;
     }
-}
+} */
