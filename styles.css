@@ -27,6 +27,11 @@ body {
     font-family: 'Roboto Mono', monospace;
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
+}
+
+body * {
+    box-sizing: inherit;
 }
 
 /* main container */
@@ -225,20 +230,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .skill-icons-container {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .skill-icon {
+    flex-basis: 33%;
     font-size: 3rem;
+    flex-shrink: 1;
     margin: 0 auto;
     padding: 0.25rem;
+}
+
+.skill-name {
+    font-size: 1rem;
+    min-width: 6rem;
 }
 
 /* Projects */
