@@ -2,8 +2,7 @@ const backDrop = document.querySelector("#backdrop");
 const navToggleButton = document.querySelector(".nav-toggle-icon")
 const mobileNavMenu = document.querySelector(".mobile-nav")
 const mobileNavOptionsArray = document.querySelectorAll(".mobile-nav-option");
-const anchorArray = document.querySelectorAll("a");
-console.log(anchorArray);
+// console.log(anchorArray);
 
 
 navToggleButton.addEventListener("click", ()=>{
