@@ -10,16 +10,7 @@ dark - #c63f17 - white text
 for text: 
 background-color: rgb(219, 219, 219);
 color:rgb(58, 58, 58);
-
 */
-
-/* font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Mono', monospace; */
-
-/* select colors that arent just white/black
-think about colors that can surround content and make it pop */
-/* use grey from background eith name for text and then use same color of heading text for about me */
-
 
 body {
     background-color: #1976d2;
@@ -32,6 +23,10 @@ body {
 
 body * {
     box-sizing: inherit;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* main container */
@@ -191,11 +186,20 @@ body * {
 
 .contact-icons {
     font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-icon {
-    margin-left: 0.25rem;
+    margin: 1rem;
     color:rgb(58, 58, 58);
+    text-decoration: none;
+}
+
+.contact-icon i:hover{
+    color: #c63f17;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
 }
 
 /* about me */
@@ -301,7 +305,7 @@ body * {
 }
 
 .project-button {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
     padding: 0.5rem;
     margin: 0.25rem;
     border-radius: 4px;
