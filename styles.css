@@ -244,6 +244,7 @@ p {
 }
 
 .skill-icon {
+    width: 100%;
     flex-basis: 33%;
     font-size: 3rem;
     flex-shrink: 1;
