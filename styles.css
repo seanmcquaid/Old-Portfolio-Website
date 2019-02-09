@@ -184,23 +184,6 @@ p {
     border-radius: 50%;
 }
 
-.contact-icons {
-    font-size: 2.5rem;
-    display: flex;
-    justify-content: center;
-}
-
-.contact-icon {
-    margin: 1rem;
-    color:rgb(58, 58, 58);
-    text-decoration: none;
-}
-
-.contact-icon i:hover{
-    color: #c63f17;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in;
-}
 
 /* about me */
 
@@ -329,6 +312,24 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.contact-icons {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icon {
+    margin: 1rem;
+    color:rgb(58, 58, 58);
+    text-decoration: none;
+}
+
+.contact-icon i:hover{
+    color: #c63f17;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
 }
 
 /* Footer */
