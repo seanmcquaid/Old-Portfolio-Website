@@ -315,21 +315,42 @@ p {
 }
 
 .contact-icons {
+    width: 100%;
+    min-width: 4rem;
     font-size: 2.5rem;
     display: flex;
     justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .contact-icon {
-    margin: 1rem;
+    margin: 0.5rem;
+    width: 100%;
+    max-width: 4.5rem;
     color:rgb(58, 58, 58);
     text-decoration: none;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon i {
+    padding: 0.5rem;
 }
 
 .contact-icon i:hover{
     color: #c63f17;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
+}
+
+.contact-icon .contact-icon-text {
+    /* visibility: hidden; */
+    font-size: 1rem;
 }
 
 /* Footer */
