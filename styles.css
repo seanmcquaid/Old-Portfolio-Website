@@ -12,6 +12,10 @@ background-color: rgb(219, 219, 219);
 color:rgb(58, 58, 58);
 */
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: #1976d2;
     margin: 0;
